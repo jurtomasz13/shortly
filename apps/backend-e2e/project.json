@@ -11,7 +11,7 @@
         "jestConfig": "apps/backend-e2e/jest.config.ts",
         "passWithNoTests": true
       },
-      "dependsOn": ["nest:build"]
+      "dependsOn": ["backend:build"]
     }
   }
 }

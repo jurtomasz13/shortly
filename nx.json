@@ -15,7 +15,6 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "6713e7cf4f834810fc1f16ca",
   "plugins": [
     {
       "plugin": "@nx/vite/plugin",
@@ -39,7 +38,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/nest-e2e/**/*"]
+      "exclude": ["apps/nest-e2e/**/*", "apps/backend-e2e/**/*"]
     },
     {
       "plugin": "@nx/webpack/plugin",
